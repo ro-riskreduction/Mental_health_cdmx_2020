@@ -49,7 +49,7 @@ b2     = result.mode
 plt.figure()
 
 plt.subplot(1,2,1)
-plt.hist(inf_1, bins=5)
+plt.hist(inf_1, bins=10)
 plt.axvline(a0, color='r', label='Mean')
 plt.axvline(a1, color='g', label='Median')
 plt.axvline(a2, color='k', label='Mode')
@@ -59,7 +59,7 @@ plt.ylabel('Number of calls')
 plt.title("Figure 23")
 
 plt.subplot(1,2,2)
-plt.hist(som_1, bins=5)
+plt.hist(som_1, bins=10)
 plt.axvline(b0, color='r', label='Mean')
 plt.axvline(b1, color='g', label='Median')
 plt.axvline(b2, color='k', label='Mode')
